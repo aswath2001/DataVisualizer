@@ -1,4 +1,4 @@
-# UserManagementSystem
+# Data Visualizer
 It is web application created using ReactJS. 
 Data is fetched from randomuser.me API and is Displayed in Table Format
 
