@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.App{
+  min-height: 713px;
+
+}
+
+body{
+  color: inherit;
+}
+.top{
+  display: flex;
+  padding-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.dark{
+  background-color: #041C32;
+  color: white;
+}
+
+
+.mainwrapper{
+  display: flex;
+}
+
+
+.searchBar{
+  display: flex;
+  flex: 0.7;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 15px;
+  margin-left: 200px;
+  background-color: white;
+}
+
+.searchBar .icon{
+  margin-top: 4px;
+  margin-left: 7px;
+  width:20px;
+  color: black;
+}
+.searchBar input{
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  padding-left: 10px;
+  margin-top: 3px;
+}
+
+.button{
+  display: flex;
+  flex: 0.1;
+  padding-left: 30px;
+}
+
+
+
+.button button{
+  border: 1px solid rgb(204, 204, 204);
+  color: blue;
+  margin-left: 20px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.darkbtn button{
+  background-color: #020202;
+  border:1px solid white;
+  color:white
+}
+
+.button button:hover{
+  border:1px solid #888888;
+}
+
+.button .downloadIcon{
+  width: 15px;
+  margin-right: 3px;
+}
+
+.showUsers{
+  margin-left: 100px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.filter{
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.filter .gender{
+  border: 1px solid black;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.filter .gender .title{
+  margin-bottom: 3px;
+}
+
+.filter .gender .option{
+  margin-left: 10px;
+
+}
+
+
+
+.showUsers tr{
+  height: 50px;
+  font-size: 95%;
+}
+
+
+
+.showUsers .title{
+  background-color: #92A9BD; 
+}
+
+.showUsers .title .name,
+.showUsers .title .gender,
+.showUsers .title .dob,
+.showUsers .title .email,
+.showUsers .title .phone{
+  padding-left: 50px;
+}
+
+.showUsers .darktitle .name,
+.showUsers .darktitle .gender,
+.showUsers .darktitle .dob,
+.showUsers .darktitle .email,
+.showUsers .darktitle .phone{
+  padding-left: 50px;
+}
+
+.showUsers .name{
+  padding-left: 20px;
+}
+
+.showUsers .title .name:hover,
+.showUsers .title .gender:hover,
+.showUsers .title .phone:hover,
+.showUsers .title .email:hover,
+.showUsers .title .dob:hover{
+  border: 1px solid black;
+}
+
+.showUsers .darktitle .name:hover,
+.showUsers .darktitle .gender:hover,
+.showUsers .darktitle .phone:hover,
+.showUsers .darktitle .email:hover,
+.showUsers .darktitle .dob:hover{
+  border: 1px solid white;
+}
+
+.showUsers .gender{
+  padding-right: 100px;
+}
+
+.showUsers .dob{
+  padding-right: 100px;
+}
+
+
+.showUsers .email{
+  padding-right: 50px;
+}
+
+.showUsers .phone{
+  padding-right: 30px;
+}
+
+
+.showUsers img{
+  border-radius: 30px;
+  width: 10%;
+}
+
+.showUsers .clicked{
+  background-color: aquamarine;
+}
+
+.filter{
+  display: inline-block;
+}
+
+.darkrecord{
+  background-color: #0F0E0E;
+}
+
+.darktitle{
+  background-color: #39311D;
+}
+
+.loader{
+  align-items: center;
+  justify-content: center;
+  margin-left: 750px;
+  margin-top: 300px;
+}
+
+@media(max-width:750px){
+  .App{
+    width: 930px;
+  }
+  .searchBar{
+    margin-left: 10px;
+    flex: 1;
+  }
+  .top{
+    display: block;
+  }
+  .button{
+    padding-left: 0px;
+    display: block;
+  }
+  .top .button button{
+    margin-top: 10px;
+    width: 100px;
+  }
+  .top .switch{
+    margin-top: 10px;
+  }
+  .mainwrapper{
+    display: block;
+  }
+  .filter{
+    display: block;
+  }
+  .showUsers{
+    width: 100px;
+    margin-left: 0;
+    display: block;
+  }
+}

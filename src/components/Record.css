@@ -1,0 +1,33 @@
+.showUsers .eachuser,
+.showUsers .eachuserdark{
+    height: 60px;
+    border: 1px solid #ededed;
+  }
+
+  .showUsers .clicked{
+    height: 60px;
+    border: 1px solid #ededed;
+    background-color: aquamarine;
+  }
+
+  .darkchecked{
+    height: 60px;
+    border: 1px solid #ededed;
+    background-color: #1E5128;
+  }
+  
+  .showUsers .eachuser:hover{
+
+    background-color: #BAFFB4;
+    border: 5px solid #BAFFB4;
+    border-left: 30px solid #BAFFB4;
+    border-right: 30px solid #BAFFB4;
+  }
+
+  .showUsers .eachuserdark:hover{
+    background-color: #519872;
+    border: 5px solid #519872;
+    border-left: 30px solid #519872;
+    border-right: 30px solid #519872;
+
+  }
