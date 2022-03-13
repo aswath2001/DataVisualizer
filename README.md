@@ -16,7 +16,7 @@ Data will be sorted according to the column if the corresponding column header i
 
 Users are allowed to download few records(selected by them). The downloaded file will be in CSV Format.
 
-The table has a search bar to filter out the users based on their Name.
+The table has a search bar to filter out the users based on their Name and a filter to filter out the users based on their gender.
 
 
 Link :https://condescending-meninsky-0fb817.netlify.app/
